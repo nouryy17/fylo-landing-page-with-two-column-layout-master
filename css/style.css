@@ -8,10 +8,6 @@ p, span, ul, li, a {
   font-weight: 400;
 }
 
-p {
-  font-size: 16px;
-}
-
 body, html {
   margin: 0;
   padding: 0;
@@ -20,9 +16,81 @@ body, html {
   overflow-x: hidden;
 }
 
-svg {
+.fylo__header {
+  height: 80px;
+  padding: 10px 60px;
+}
+
+.fylo__hero {
+  padding: 10px 60px;
+  margin-bottom: 50px;
+}
+
+.bg-curve {
+  width: 100%;
+  height: 120px;
+  background-image: url(../images/bg-curve-desktop.svg);
+}
+
+.fylo__article {
+  padding: 40px 60px;
+  background-color: hsl(240, 75%, 98%);
+}
+
+.how-fylo-works a {
+  transition: 0.5s;
+}
+.how-fylo-works a:hover {
+  opacity: 0.7;
+}
+
+.testimonial {
+  background-color: white;
+  box-shadow: 2px 3px 9px #e5e5e5;
+  border-radius: 4px;
+  padding: 10px;
+}
+.testimonial img {
+  border-radius: 50%;
+  width: 100px;
+}
+.testimonial .testimonial-qoute {
+  width: 20px;
+}
+
+.subscribe-mail {
+  background-color: hsl(238, 22%, 44%);
+  padding: 40px 60px;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 40px 60px;
+}
+footer .footer-logo .svg-logo {
+  width: 170px;
+  height: fit-content;
+}
+footer .social svg {
+  margin-right: 10px;
+  cursor: pointer;
   width: 25px;
   height: 25px;
+}
+footer .social svg:hover path {
+  fill: hsl(0, 0%, 75%);
+}
+footer .social svg path {
+  fill: white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer .phone img, footer .email img {
+  margin-right: 10px;
+  width: fit-content;
+  height: fit-content;
 }
 
 /*# sourceMappingURL=style.css.map */
