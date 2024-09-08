@@ -20,10 +20,20 @@ body, html {
   height: 80px;
   padding: 10px 60px;
 }
+@media (max-width: 767px) {
+  .fylo__header {
+    padding: 10px 20px;
+  }
+}
 
 .fylo__hero {
   padding: 10px 60px;
   margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .fylo__hero {
+    padding: 10px 20px;
+  }
 }
 .fylo__hero form {
   width: fit-content;
@@ -39,6 +49,11 @@ body, html {
 .fylo__article {
   padding: 40px 60px;
   background-color: hsl(240, 75%, 98%);
+}
+@media (max-width: 767px) {
+  .fylo__article {
+    padding: 10px 20px;
+  }
 }
 
 .how-fylo-works a {
@@ -66,10 +81,20 @@ body, html {
   background-color: hsl(238, 22%, 44%);
   padding: 40px 60px;
 }
+@media (max-width: 767px) {
+  .subscribe-mail {
+    padding: 10px 20px;
+  }
+}
 
 footer {
   background-color: hsl(243, 87%, 12%);
   padding: 40px 60px;
+}
+@media (max-width: 767px) {
+  footer {
+    padding: 10px 20px;
+  }
 }
 footer .footer-logo .svg-logo {
   width: 170px;
