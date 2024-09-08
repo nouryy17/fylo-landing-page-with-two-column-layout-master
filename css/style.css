@@ -36,6 +36,7 @@ body, html {
   }
 }
 .fylo__hero form {
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -56,6 +57,11 @@ body, html {
   }
 }
 
+.how-fylo-works {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 20px;
+}
 .how-fylo-works a {
   transition: 0.5s;
 }
@@ -98,6 +104,7 @@ footer {
 }
 footer .footer-logo .svg-logo {
   width: 170px;
+  height: -moz-fit-content;
   height: fit-content;
 }
 footer .social svg {
@@ -118,8 +125,8 @@ footer a {
 }
 footer .phone img, footer .email img {
   margin-right: 10px;
+  width: -moz-fit-content;
   width: fit-content;
+  height: -moz-fit-content;
   height: fit-content;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
