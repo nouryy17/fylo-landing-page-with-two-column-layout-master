@@ -102,10 +102,20 @@ footer {
     padding: 10px 20px;
   }
 }
+footer .footerContent {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
 footer .footer-logo .svg-logo {
   width: 170px;
   height: -moz-fit-content;
   height: fit-content;
+}
+footer .social {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
 }
 footer .social svg {
   margin-right: 10px;
